@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +11,83 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://hrid1.github.io/font-awesome-cdn/style.css"
+    />
+
+    <!-- Custom Tailwind -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              primary: "#797DFC",
+              iconAsh: "#03071207",
+            },
+            fontFamily: {
+              font_mulish: ["Mulish", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <!-- header-section -->
-    <header></header>
+    <header>
+      <nav class="border">
+        <div class="navbar bg-base-200">
+          <div class="flex-1">
+            <a class="btn btn-ghost text-4xl font-extrabold">ReTro</a>
+          </div>
+          <div class="flex-none">
+            <!-- icon section -->
+
+            <div class="space-x-3 mr-6 md:flex items-center hidden">
+              <div
+                class="border-2 w-12 h-12 bg-iconAsh rounded-full flex items-center justify-center"
+              >
+                <i class="fa-light fa-house"></i>
+              </div>
+              <div
+                class="border-2 w-12 h-12 bg-iconAsh rounded-full flex items-center justify-center"
+              >
+                <i class="fa-light fa-pen"></i>
+              </div>
+              <div
+                class="border-2 w-12 h-12 bg-iconAsh rounded-full flex items-center justify-center"
+              >
+                <i class="fa-regular fa-user-plus"></i>
+              </div>
+              <div
+                class="border-2 w-12 h-12 bg-iconAsh rounded-full md:flex items-center justify-center"
+              >
+                <i class="fa-sharp fa-regular fa-flag"></i>
+              </div>
+            </div>
+
+            <button
+              class="bg-primary text-white rounded-full px-10 py-4 font-semibold text-2xl"
+            >
+              Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- main section -->
     <main></main>
