@@ -40,6 +40,9 @@
             fontFamily: {
               font_mulish: ["Mulish", "sans-serif"],
             },
+            backgroundImage:{
+                hero: "url('./images/bgbanner.png')"
+            }
           },
         },
       };
@@ -47,9 +50,9 @@
   </head>
   <body>
     <!-- header-section -->
-    <header>
-      <nav class="border">
-        <div class="navbar bg-base-200">
+    <header class="container mx-auto mb-8 ">
+      <nav class="my-8">
+        <div class="navbar">
           <div class="flex-1">
             <a class="btn btn-ghost text-4xl font-extrabold">ReTro</a>
           </div>
@@ -87,10 +90,65 @@
           </div>
         </div>
       </nav>
+
+      <!-- Hero Section  -->
+       <section class="container mx-auto">
+
+        
+            <div class="h-full bg-slate-950 rounded-3xl opacity-90">
+                <div class="bg-[url('./images/bgbanner.png')] bg-no-repeat bg-cover border">
+
+                 <div class= "p-10 md:px-28 md:py-36 flex flex-col md:flex-row gap-12 items-center justify-between">
+                  <div class="md:w-[50%]">
+                    <h1 class="text-7xl font-extrabold text-white mb-5 leading-tight">Welcome to the ReTro Forum</h1>
+                    <p class="font-medium text-xl text-gray-200 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, asperiores.</p>
+                   
+                    <span class="relative h-20 p- 4">
+                      <input class="input w-4/5 rounded-full" type="text">
+                      <button class="py-2 px-6 m-1 rounded-full bg-primary text-white font-semibold absolute right-0  ">Search</button>
+
+                      
+                    </span>
+
+                    <!-- <label class="input input-bordered flex items-center gap-2">
+                      <input type="text" class="grow py-2" placeholder="Search" />
+                      <button class="btn btn-primary ">Submit</button>
+                    </label> -->
+                  
+                  </div>
+
+
+                    <div class="bg-white px-16 py-12 rounded-3xl text-gray-700 space-y-2">
+
+                      
+                        <p class="flex gap-12 justify-between text-xl font-semibold">Register User  <span class="m- 8">01</span></p>
+                        <p class="flex gap-12 justify-between text-xl font-semibold">Forum  <span class="m- 8">12</span></p>
+                        <p class="flex gap-12 justify-between text-xl font-semibold">Topics  <span class="m- 8">05</span></p>
+                        <p class="flex gap-12 justify-between text-xl font-semibold">Relies  <span class="8">02</span></p>
+                       
+                        
+                      
+                      
+                    </div>
+               
+                 </div>
+
+                </div>
+
+            </div>
+            <!-- <img src=" ./images/bgbanner.png" alt=""> -->
+        </div>
+
+       </section>
+
     </header>
 
     <!-- main section -->
-    <main></main>
+    <main class="container mx-auto">
+        <div class="hero h-screen">
+
+        </div>
+    </main>
 
     <!-- footer-section -->
 
