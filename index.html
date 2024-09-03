@@ -50,7 +50,7 @@
   </head>
   <body>
     <!-- header-section -->
-    <header class="container mx-auto mb-8 ">
+    <header class="container mx-auto mb-8 hidden">
       <nav class="my-8">
         <div class="navbar">
           <div class="flex-1">
@@ -121,10 +121,10 @@
                     <div class="bg-white px-16 py-12 rounded-3xl text-gray-700 space-y-2">
 
                       
-                        <p class="flex gap-12 justify-between text-xl font-semibold">Register User  <span class="m- 8">01</span></p>
-                        <p class="flex gap-12 justify-between text-xl font-semibold">Forum  <span class="m- 8">12</span></p>
-                        <p class="flex gap-12 justify-between text-xl font-semibold">Topics  <span class="m- 8">05</span></p>
-                        <p class="flex gap-12 justify-between text-xl font-semibold">Relies  <span class="8">02</span></p>
+                        <p class="flex gap-12 justify-between text-2xl font-semibold">Register User  <span class="m- 8">01</span></p>
+                        <p class="flex gap-12 justify-between text-2xl font-semibold">Forum  <span class="m- 8">12</span></p>
+                        <p class="flex gap-12 justify-between text-2xl font-semibold">Topics  <span class="m- 8">05</span></p>
+                        <p class="flex gap-12 justify-between text-2xl  font-semibold">Relies  <span class="8">02</span></p>
                        
                         
                       
@@ -145,12 +145,240 @@
 
     <!-- main section -->
     <main class="container mx-auto">
-        <div class="hero h-screen">
+        
+      <!-------------------------------- Discuss Section -->
+      <div class="text-center mb-6">
+        <h2 class="text-4xl font-extrabold mb-6">Let's Discuss</h2>
+        <p class="mx-auto w-1/2 text-gray-400 font-medium">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+      </div>
+
+      <!-- discuss cards -->
+
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-6 hidden">
+        <!-- left -->
+         <div class="md:col-span-2">
+            <!-- frist card -->
+            <div class="flex items-start border p-10 gap-6 rounded-3xl bg-gray-100 mb-6">
+
+              <!-- author pic -->
+              <div class="avatar">
+                <div class="w-20 rounded">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    alt="Tailwind-CSS-Avatar-component" />
+                </div>
+              </div>
+                <!-- info -->
+                 <div>
+                 
+                  <p class="font-semibold text-sm space-x-5 mb-2">
+                    <span>#music</span>
+                    <span>Author: Awlad Hossin</span>
+                  </p>
+                 <h4 class="font-bold text-xl mb-2">10 Kids Unaware of Their Halloween Costume</h4>
+
+                 <p class="mb-2">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
+
+                 <hr class="my-4 border border-gray-400 border-dashed">
+
+                 <div class="flex justify-between items-center">
+                  <div class="flex gap-6">
+                    <p class="space-x-2 text-gray-500">
+                     <i class="fa-regular fa-message-lines"></i>
+                      <span>500</span>
+                    </p>
+                    <p class="space-x-2 text-gray-500">
+                      <i class="fa-sharp fa-regular fa-eye"></i>
+                      <span>500</span>
+                    </p>
+                    <p class="space-x-2 text-gray-500">
+                      <i class="fa-sharp fa-regular fa-clock"></i>
+                      <span>500</span>
+                    </p>
+                    
+                  </div>
+                  <div>
+                   <img src="./images/email.png" alt="">
+                  </div>
+                 </div>
+                 </div>
+            </div>
+
+            <!-- second card -->
+            <div class="flex items-start border p-10 gap-6 rounded-3xl bg-gray-100 mb-6">
+
+              <!-- author pic -->
+              <div class="avatar">
+                <div class="w-20 rounded">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    alt="Tailwind-CSS-Avatar-component" />
+                </div>
+              </div>
+                <!-- info -->
+                 <div>
+                 
+                  <p class="font-semibold text-sm space-x-5 mb-2">
+                    <span>#music</span>
+                    <span>Author: Awlad Hossin</span>
+                  </p>
+                 <h4 class="font-bold text-xl mb-2">10 Kids Unaware of Their Halloween Costume</h4>
+
+                 <p class="mb-2">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
+
+                 <hr class="my-4 border border-gray-400 border-dashed">
+
+                 <div class="flex justify-between items-center">
+                  <div class="flex gap-6">
+                    <p class="space-x-2 text-gray-500">
+                     <i class="fa-regular fa-message-lines"></i>
+                      <span>500</span>
+                    </p>
+                    <p class="space-x-2 text-gray-500">
+                      <i class="fa-sharp fa-regular fa-eye"></i>
+                      <span>500</span>
+                    </p>
+                    <p class="space-x-2 text-gray-500">
+                      <i class="fa-sharp fa-regular fa-clock"></i>
+                      <span>500</span>
+                    </p>
+                    
+                  </div>
+                  <div>
+                   <img src="./images/email.png" alt="">
+                  </div>
+                 </div>
+                 </div>
+            </div>
+           
+
+         </div>
+
+
+         <!-- right side -->
+         <div>
+          <div class="bg-gray-200 rounded-3xl p-6">
+            <div class="flex justify-between mb-4 ">
+              <h5>Title</h5>
+              <p><span class="text-green-500"><i class="fa-duotone fa-solid fa-check-double"></i></span> Mark as read: <span>4</span></p>
+            </div>
+
+
+            <!-- start here -->
+            <div class="bg-white p-4 rounded-xl flex items-center justify-between mb-4">
+              <h4 class="w-2/3 font-semibold">10 Kids Unaware of Their Halloween Costume</h4>
+              
+              <p class="text-gray-500">
+                <i class="fa-light fa-eye"></i>
+                <span class="ml-4">1249</span>
+                
+              </p>
+
+            </div>
+            
+
+          </div>
+         </div>
+         
+      </section>
+
+
+      <!--------------------------------join forum section -->
+
+      <section class="flex items-center bg-slate-900 text-white rounded-3xl p-20 gap-6">
+        <div class="flex-1 ">
+          <h2 class="text-5xl font-extrabold mb-6">Join Our Forum</h2>
+          <p class="text-lg mb-10 leading-tight">Share your favorite opinion and win and wp forum coffee mug! Yes, you can run unit tests and view the results directly within the app. </p>
+
+          <button class="btn bg-primary text-white rounded-full border-none px-8">Registered Now</button>
+        </div>
+
+        <div>
+          <img src="/images/joinforum.png" alt="">
+        </div>
+
+        
+      </section>
+
+      <!-- latest post section -->
+
+      <section class="my-20">
+        <div class="text-center mb-6">
+          <h2 class="text-4xl font-extrabold mb-6">Latest Posts</h2>
+          <p class="mx-auto w-1/2 text-gray-400 font-medium">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+        </div>
+
+
+      <!-- card section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 hidden">
+
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
 
         </div>
+      </section>
     </main>
 
     <!-- footer-section -->
+
+    <footer class="bg-gray-200 p-20 ">
+      <div class="flex flex-col gap-6  items-center justify-center text-center">
+        <img src="./images/logo.png" alt="">
+        <p class="mx-auto w-1/2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+
+        <div class="flex gap-6">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+      <hr class="border border-gray-300 my-10">
+      <div class=" text-center">
+          <p class="text-gray-400">2017, All Rights Reserved.</p>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
